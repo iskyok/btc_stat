@@ -1,0 +1,11 @@
+#
+# 加载一些进程和日志文件/设置queues优先级
+# 请求超时时间和并发数
+---
+:verbose: true
+:pidfile: ./tmp/pids/sidekiq.pid
+:logfile: ./log/sidekiq.log
+:concurrency: 10
+:timeout: 1000
+:queues:
+  - [common, 1]

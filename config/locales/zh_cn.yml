@@ -1,0 +1,13 @@
+zh_cn:
+  number:
+    human:
+      decimal_units:
+        units:
+          unit: ""
+          thousand: "千"
+          wan: "万"
+          million: "百万"
+          yi: "亿"
+          billion: "十亿"
+          trillion: "万亿"
+          quadrillion: "千万亿"

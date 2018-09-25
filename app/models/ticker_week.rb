@@ -1,0 +1,2 @@
+class TickerWeek < ApplicationRecord
+end
